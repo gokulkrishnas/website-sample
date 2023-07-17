@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+    --primary: #3155e7;
+    --primary-dark: #2045d6;
+    --black: #010101;
+    --grey-1: #788190;
+    --grey-2: #d3d4db;
+    --white: #FFFFFF;
+    --body: #000;
+}
+
+* {
+    background-color: var(--body);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--body);
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+    padding: 12px 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--grey-2);
+    color: var(--black);
+    background-color: var(--primary);
+}
+
+.btn-outline-secondary:hover {
+    border: 1px solid var(--grey-2);
+    color: var(--black);
+    background-color: var(--grey-2);
+}
+
+.btn-outline-secondary:focus {
+    border: 1px solid var(--grey-2);
+    color: var(--black);
+    background-color: var(--grey-2);
+}
+
+.navbar .btn-outline-secondary {
+    border: none;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar-toggler i{
+    border: none;
+    font-size: 30px;
+}
+
+.navbar .navbar-collapse a:active{
+    color: var(--grey-1);
+}
+.navbar .navbar-collapse a:hover{
+    color: var(--grey-2);
+}
+
+.navbar {
+    padding: 30px 0;
+}
+
+.navbar .nav-link {
+    margin-left: 41px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.navbar a:active {
+    color: var(--grey-2);
+}
+
+section.hero {
+    padding: 80px 0;
+}
+
+section.hero .text {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--white);
+}
+
+section.hero h2 {
+    margin-top: 20px;
+    color: #708cff;
+}
+
+.buttons {
+    padding-top: 69px;
+}
+
+.buttons .btn {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
